@@ -9,14 +9,14 @@ Place this text file in the same directory as the python file and then simply ru
 ### Code
 ```python
 import tldextract
-import os
+import time
 
 urlslist = open("urls.txt", encoding="utf8").read().splitlines()
 for url in urlslist:
     extracted = tldextract.extract(url)
     print("{}.{}".format(extracted.domain, extracted.suffix))
 
-os.system("pause")
+time.sleep(1000) #os.pause() exits when trying to copy
 ```
 
 ### Examples
