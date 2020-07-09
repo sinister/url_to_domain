@@ -1,8 +1,10 @@
 # url_to_domain
 Simple solution to extract **only** the domains from a list of urls in Python.
 
-### Instructions
+### Requirements
 Requires the tldextract library (pip install tldextract) 
+
+### Instructions
 Place your URLs in a text file named urls.txt with one url per line. 
 Place this text file in the same directory as the python file and then simply run the file.
 
